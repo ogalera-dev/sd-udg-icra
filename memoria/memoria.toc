@@ -1,0 +1,32 @@
+\select@language {catalan}
+\contentsline {section}{\numberline {1}Problema}{3}
+\contentsline {subsection}{\numberline {1.1}Propietats de la xarxa de distribuci\IeC {\'o} d'aigua}{3}
+\contentsline {subsection}{\numberline {1.2}Propietats dels sensors}{3}
+\contentsline {section}{\numberline {2}An\IeC {\`a}lisi d'eines}{4}
+\contentsline {subsection}{\numberline {2.1}EPANET}{4}
+\contentsline {subsection}{\numberline {2.2}TEVA-SPOT Toolkit}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}Depend\IeC {\`e}ncies}{6}
+\contentsline {section}{\numberline {3}EPANET}{7}
+\contentsline {subsection}{\numberline {3.1}Instal\IeC {\textperiodcentered }laci\IeC {\'o}}{7}
+\contentsline {subsection}{\numberline {3.2}Configuraci\IeC {\'o} b\IeC {\`a}sica de l'entorn}{8}
+\contentsline {subsection}{\numberline {3.3}Implementaci\IeC {\'o} d'una nova xarxa de distribuci\IeC {\'o}}{9}
+\contentsline {subsubsection}{\numberline {3.3.1}Eines}{10}
+\contentsline {subsubsection}{\numberline {3.3.2}Disseny}{10}
+\contentsline {subsection}{\numberline {3.4}An\IeC {\`a}lisi simple}{12}
+\contentsline {subsection}{\numberline {3.5}An\IeC {\`a}lisi de peri\IeC {\`o}de variant}{14}
+\contentsline {subsection}{\numberline {3.6}Analisi de la qualitat de l'aigua}{15}
+\contentsline {subsection}{\numberline {3.7}Propietats}{16}
+\contentsline {subsubsection}{\numberline {3.7.1}Algorismes utilitzats en l'an\IeC {\`a}lisi}{16}
+\contentsline {subsubsection}{\numberline {3.7.2}Format dels fitxers}{16}
+\contentsline {subsubsection}{\numberline {3.7.3}Interpretaci\IeC {\'o} dels errors}{17}
+\contentsline {subsection}{\numberline {3.8}Conclusi\IeC {\'o} d'EPANET}{18}
+\contentsline {subsection}{\numberline {3.9}Altres exemples}{18}
+\contentsline {section}{\numberline {4}TEVA-SPOT Toolkit}{19}
+\contentsline {subsection}{\numberline {4.1}Instal\IeC {\textperiodcentered }laci\IeC {\'o}}{19}
+\contentsline {subsubsection}{\numberline {4.1.1}Linia de comandes}{19}
+\contentsline {subsubsection}{\numberline {4.1.2}Interf\IeC {\'\i }cie gr\IeC {\`a}fica}{19}
+\contentsline {subsubsection}{\numberline {4.1.3}Configuraci\IeC {\'o}}{19}
+\contentsline {subsection}{\numberline {4.2}Metodologia de posicionament de sensors}{19}
+\contentsline {subsection}{\numberline {4.3}Exemple}{19}
+\contentsline {section}{\numberline {5}Documentaci\IeC {\'o} utilitzada}{20}
+\contentsline {section}{\numberline {A}Xarxa 1}{22}
