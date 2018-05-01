@@ -430,16 +430,69 @@ Per veure el funcionament d'aquesta eina, s'analitzarà una de les xarxes que ja
 	\item Evaluar el posicionament de sensors.
 \end{enumerate}
 
-\subsubsection{Definir l'estructura del projecte}
-El primer que cal fer per començar a treballar amb TEVA-SPOT és definir un ensamblat, per això cal anar a 
+\subsubsection{Definir l'estructura del projecte\label{epa_estructura}}
+El primer que cal fer per començar a treballar amb TEVA-SPOT és definir un ensamblat, per això cal anar a \path{Ensamble/New} i donar-li un nom, aquest procés crearà un nou ensamblat.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.5]{imatges/teva-spot/1.png}
+	\caption{Nou ensamblat.}
+\end{figure}
+\\\\Fet això, s'ha de importar la xarxa generada amb EPANET des de \path{Ensamble/Import EPANET .inp File...}
+\begin{figure}[h!]
+	\includegraphics[scale=.4]{imatges/teva-spot/2.png}
+	\caption{Importar la xarxa creada amb EPANET.}
+\end{figure}
 
-\subsubsection{Simulació d'incidents contaminants}
+\subsubsection{Simulació d'incidents contaminants\label{epa_contaminants}}
+Un cop importada la xarxa, s'han de definir els contaminants, per això cal obrir el menú \path{Ensamble/Execution Control} i editar l'escenari (\textit{Scenarios}).
+\begin{figure}[h!]
+	\includegraphics[scale=.4]{imatges/teva-spot/3.png}
+	\includegraphics[scale=.4]{imatges/teva-spot/4.png}
+	\includegraphics[scale=.4]{imatges/teva-spot/5.png}
+\end{figure}
+\\\\Aquest contaminant es pot evocar en:
+\begin{itemize}
+	\item Non-Zero Demand Junction.
+	\item All Junctions.
+	\item All Nodes.
+	\item Nova configuració creada des de el botó \textit{Add}
+\end{itemize}
+A partir del contaminant i l'estratègia de distribució, es crea un \textit{Node Injection}. Finalment es crea un \textit{Scenario Set} que no és res més que una carpeta que defineix un conjunt d'\textit{injection nodes} o \textit{scenarios}, la configuració ha de quedar de la següent manera.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{imatges/teva-spot/6.png}
+	\caption{Configuració dels contaminants.}
+\end{figure}
 
-\subsubsection{Computar l'impacte dels contaminants}
+\subsubsection{Computar l'impacte dels contaminants\label{epa_computar}}
+En base a la configuració dels contaminants que s'ha fet en la secció \ref{epa_contaminants}, es segueix amb l'execució de la simulació per veure com afecta el contaminant a la xarxa.
+\\\\Per això es selecciona l'escenari (\textit{EPANET Simulations}) i s'executa.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{imatges/teva-spot/7.png}
+	\caption{Execució.}
+\end{figure}
+\\\\En finalitzar l'execució, s'ha de veure un check verd al costat de \textit{EPANET Simulations}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{imatges/teva-spot/8.png}
+	\caption{Fi de l'execució.}
+\end{figure}
+
+\subsubsection{Configuració de l'anàlisi}
+En la secció \textit{Health Impact Analysis} es pot fer la configuració per analitzar els resultats.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{imatges/teva-spot/9.png}
+	\caption{Configuració de l'anàlisi.}
+\end{figure}
 
 \subsubsection{Posicionament de sensors}
+Finalment per configurar el posicionament de sensors, cal editar l'opció \textit{Sensor Placement} i s'obrirà la següent finestra.
 
-\subsubsection{Evaluar el posicionament de sensors}
+\clearpage
+\subsection{Notes}
+S'ha considerat que la configuració de l'anàlisi i el posicionament de sensors es treballa a un nivell molt tècnic i s'ha decidit no entrar-hi en detall. Tota aquesta documentació està disponible en el manual d'usuari. \cite{tevaSpotGui}
 
 \clearpage
 \section{Versions utilitzades}
@@ -498,8 +551,9 @@ La documentació disponible i que s'ha seguit per elaborar aquest manual és:
 \begin{appendices}
 \section{Xarxa 1\label{ann1}}
 En aquest annex es mostra el contingut del fitxer per la xarxa desenvolupada en aquest document.\footnote{Aquest mateix fitxer es pot trobar en \path{/xarxes/primera.inp}}
-\lstinputlisting[language={}]{xarxes/exportades/x1.inp}
+\lstinputlisting[language={}]{xarxes/exportades/Exemple.inp}
 
+\clearpage
 \section{Report d'estat de la xarxa\label{ann2}}
 En aquest annex es mostra el contingut del fitxer generat per epanet de l'estat de la xarxa durant la simulació.
 \lstinputlisting[language={}]{xarxes/reports/Net3_status.txt}

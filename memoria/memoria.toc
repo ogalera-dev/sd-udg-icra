@@ -33,11 +33,12 @@
 \contentsline {subsection}{\numberline {4.3}Estructura de dades}{25}
 \contentsline {subsection}{\numberline {4.4}Exemple}{26}
 \contentsline {subsubsection}{\numberline {4.4.1}Definir l'estructura del projecte}{26}
-\contentsline {subsubsection}{\numberline {4.4.2}Simulaci\IeC {\'o} d'incidents contaminants}{26}
-\contentsline {subsubsection}{\numberline {4.4.3}Computar l'impacte dels contaminants}{26}
-\contentsline {subsubsection}{\numberline {4.4.4}Posicionament de sensors}{26}
-\contentsline {subsubsection}{\numberline {4.4.5}Evaluar el posicionament de sensors}{26}
-\contentsline {section}{\numberline {5}Versions utilitzades}{27}
-\contentsline {section}{\numberline {6}Documentaci\IeC {\'o} utilitzada}{28}
-\contentsline {section}{\numberline {A}Xarxa 1}{30}
-\contentsline {section}{\numberline {B}Report d'estat de la xarxa}{34}
+\contentsline {subsubsection}{\numberline {4.4.2}Simulaci\IeC {\'o} d'incidents contaminants}{27}
+\contentsline {subsubsection}{\numberline {4.4.3}Computar l'impacte dels contaminants}{28}
+\contentsline {subsubsection}{\numberline {4.4.4}Configuraci\IeC {\'o} de l'an\IeC {\`a}lisi}{29}
+\contentsline {subsubsection}{\numberline {4.4.5}Posicionament de sensors}{31}
+\contentsline {subsection}{\numberline {4.5}Notes}{32}
+\contentsline {section}{\numberline {5}Versions utilitzades}{33}
+\contentsline {section}{\numberline {6}Documentaci\IeC {\'o} utilitzada}{34}
+\contentsline {section}{\numberline {A}Xarxa 1}{36}
+\contentsline {section}{\numberline {B}Report d'estat de la xarxa}{41}
