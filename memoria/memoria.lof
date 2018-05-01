@@ -1,16 +1,21 @@
 \select@language {catalan}
-\contentsline {figure}{\numberline {1}{\ignorespaces EPANET}}{4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Sandia National Laboratories}}{5}
-\contentsline {figure}{\numberline {3}{\ignorespaces Establir les unitats del sistema internacional.}}{9}
-\contentsline {figure}{\numberline {4}{\ignorespaces Configuraci\IeC {\'o} de les propietats dels components gr\IeC {\`a}fics}}{9}
-\contentsline {figure}{\numberline {5}{\ignorespaces Configuraci\IeC {\'o} de les dimensions de l'escenari.}}{10}
-\contentsline {figure}{\numberline {6}{\ignorespaces Eines disponibles per la creaci\IeC {\'o} de xarxes.}}{10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama sense connexions.}}{11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagrama amb connexions.}}{11}
-\contentsline {figure}{\numberline {9}{\ignorespaces Creaci\IeC {\'o} d'una nova corba.}}{12}
-\contentsline {figure}{\numberline {10}{\ignorespaces Execuci\IeC {\'o} correcte.}}{12}
-\contentsline {figure}{\numberline {11}{\ignorespaces Taula de resultats de l'execuci\IeC {\'o}.}}{13}
-\contentsline {figure}{\numberline {12}{\ignorespaces Configuraci\IeC {\'o} dels intervals de temps.}}{14}
-\contentsline {figure}{\numberline {13}{\ignorespaces Configuraci\IeC {\'o} del patr\IeC {\'o} pel temps.}}{15}
-\contentsline {figure}{\numberline {14}{\ignorespaces Representaci\IeC {\'o} dels components d'EPANET}}{17}
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemple de xarxes extretes d'Internet}}{18}
+\contentsline {figure}{\numberline {1}{\ignorespaces EPANET}}{5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sandia National Laboratories}}{6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Establir les unitats del sistema internacional.}}{10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Configuraci\IeC {\'o} de les propietats dels components gr\IeC {\`a}fics.}}{10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Eines disponibles per la creaci\IeC {\'o} de xarxes.}}{11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama sense connexions.}}{12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama amb connexions.}}{13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Bomba, diposit, sortidor i valvula}}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Creaci\IeC {\'o} d'una nova corba.}}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Execuci\IeC {\'o} correcte.}}{15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Taula d'energia de les bombes.}}{16}
+\contentsline {figure}{\numberline {12}{\ignorespaces Balan\IeC {\c c} de la demanda.}}{16}
+\contentsline {figure}{\numberline {13}{\ignorespaces Taula de resultats de l'execuci\IeC {\'o}.}}{17}
+\contentsline {figure}{\numberline {14}{\ignorespaces Configuraci\IeC {\'o} dels intervals de temps.}}{18}
+\contentsline {figure}{\numberline {15}{\ignorespaces Configuraci\IeC {\'o} del patr\IeC {\'o} pel temps.}}{19}
+\contentsline {figure}{\numberline {16}{\ignorespaces Configuraci\IeC {\'o} d'un node}}{19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Configuraci\IeC {\'o} global}}{20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Representaci\IeC {\'o} dels components d'EPANET}}{21}
+\contentsline {figure}{\numberline {19}{\ignorespaces Exemple de xarxes extretes d'Internet.}}{23}
+\contentsline {figure}{\numberline {20}{\ignorespaces Estructura de dades de TEVA-SPOT.}}{25}

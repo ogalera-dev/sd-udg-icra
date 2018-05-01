@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.31)  15 APR 2018 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.31)  1 MAY 2018 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,15 +520,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<imatges/logo3.png, id=1, 609.27625pt x 418.56375pt>
-File: imatges/logo3.png Graphic file (type png)
- <use imatges/logo3.png>
-Package pdftex.def Info: imatges/logo3.png used on input line 44.
+<imatges/logo.png, id=1, 609.27625pt x 418.56375pt>
+File: imatges/logo.png Graphic file (type png)
+ <use imatges/logo.png>
+Package pdftex.def Info: imatges/logo.png used on input line 44.
 (pdftex.def)             Requested size: 195.0pt x 133.96228pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imatges/logo3.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imatges/logo.png>]
 (./memoria.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
@@ -542,32 +542,38 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-)
-\tf@toc=\write3
-\openout3 = `memoria.toc'.
-
 
 [1
 
-] (./memoria.lof)
+])
+\tf@toc=\write3
+\openout3 = `memoria.toc'.
+
+ [2] (./memoria.lof)
 \tf@lof=\write4
 \openout4 = `memoria.lof'.
 
- [2
+ [3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-[3
+
+Overfull \hbox (1.10567pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 La xar-xa de dis-tri-bu-ci^^So d'ai-gua que es vol ana-lit-zar,
+ com-pleix amb els seg^^?uents
+ []
+
+[4
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 93.
- <imatges/epanet.jpeg, id=24, 225.84375pt x 225.84375pt>
+ <imatges/epanet.jpeg, id=27, 225.84375pt x 225.84375pt>
 File: imatges/epanet.jpeg Graphic file (type jpg)
 
 <use imatges/epanet.jpeg>
@@ -578,92 +584,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--100
 
  []
 
-[4
+[5
 
- <./imatges/epanet.jpeg>] <imatges/snlabs.png, id=32, 1204.5pt x 481.8pt>
+ <./imatges/epanet.jpeg>] <imatges/snlabs.png, id=35, 1204.5pt x 481.8pt>
 File: imatges/snlabs.png Graphic file (type png)
 
 <use imatges/snlabs.png>
 Package pdftex.def Info: imatges/snlabs.png used on input line 127.
 (pdftex.def)             Requested size: 361.35278pt x 144.5411pt.
- [5 <./imatges/snlabs.png>] [6]
+
+Overfull \hbox (6.67598pt too wide) in paragraph at lines 131--132
+\OT1/cmr/m/n/12 gua. El sis-te-ma d'an^^Ralisi que pro-por-ci-o-na aques-ta ei-
+na es ba-sa ma-jo-rit^^Rariament
+ []
+
+[6 <./imatges/snlabs.png>] [7]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 157.
 
-<imatges/epanet/inst/1.png, id=41, 473.77pt x 362.35374pt>
+<imatges/epanet/inst/1.png, id=44, 473.77pt x 362.35374pt>
 File: imatges/epanet/inst/1.png Graphic file (type png)
 
 <use imatges/epanet/inst/1.png>
 Package pdftex.def Info: imatges/epanet/inst/1.png used on input line 166.
 (pdftex.def)             Requested size: 142.1321pt x 108.70695pt.
 
-<imatges/epanet/inst/2.png, id=42, 473.77pt x 362.35374pt>
+<imatges/epanet/inst/2.png, id=45, 473.77pt x 362.35374pt>
 File: imatges/epanet/inst/2.png Graphic file (type png)
 
 <use imatges/epanet/inst/2.png>
 Package pdftex.def Info: imatges/epanet/inst/2.png used on input line 171.
 (pdftex.def)             Requested size: 142.1321pt x 108.70695pt.
+ [8
 
-<imatges/epanet/inst/3.png, id=43, 473.77pt x 362.35374pt>
+ <./imatges/epanet/inst/1.png> <./imatges/epanet/inst/2.png>] <imatges/epanet/i
+nst/3.png, id=52, 473.77pt x 362.35374pt>
 File: imatges/epanet/inst/3.png Graphic file (type png)
 
 <use imatges/epanet/inst/3.png>
 Package pdftex.def Info: imatges/epanet/inst/3.png used on input line 176.
 (pdftex.def)             Requested size: 142.1321pt x 108.70695pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imatges/epanet/inst/4.png, id=44, 1371.1225pt x 746.79pt>
+<imatges/epanet/inst/4.png, id=53, 1371.1225pt x 746.79pt>
 File: imatges/epanet/inst/4.png Graphic file (type png)
 
 <use imatges/epanet/inst/4.png>
 Package pdftex.def Info: imatges/epanet/inst/4.png used on input line 181.
 (pdftex.def)             Requested size: 205.6595pt x 112.01366pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imatges/epanet/1.png, id=45, 220.57407pt x 280.79906pt>
+<imatges/epanet/1.png, id=54, 220.57407pt x 280.79906pt>
 File: imatges/epanet/1.png Graphic file (type png)
 
 <use imatges/epanet/1.png>
 Package pdftex.def Info: imatges/epanet/1.png used on input line 191.
 (pdftex.def)             Requested size: 154.40079pt x 196.558pt.
 
-<imatges/epanet/2.png, id=46, 259.7203pt x 258.9675pt>
+<imatges/epanet/2.png, id=55, 259.7203pt x 258.9675pt>
 File: imatges/epanet/2.png Graphic file (type png)
 
 <use imatges/epanet/2.png>
 Package pdftex.def Info: imatges/epanet/2.png used on input line 197.
 (pdftex.def)             Requested size: 181.80296pt x 181.27599pt.
 
-<imatges/epanet/3.png, id=47, 316.93407pt x 201.75375pt>
-File: imatges/epanet/3.png Graphic file (type png)
-
-<use imatges/epanet/3.png>
-Package pdftex.def Info: imatges/epanet/3.png used on input line 203.
-(pdftex.def)             Requested size: 221.85233pt x 141.22665pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--206
+Underfull \hbox (badness 10000) in paragraph at lines 187--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--206
+Underfull \hbox (badness 10000) in paragraph at lines 187--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--206
+Underfull \hbox (badness 10000) in paragraph at lines 187--201
 
  []
-
-[7
-
- <./imatges/epanet/inst/1.png> <./imatges/epanet/inst/2.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -671,209 +666,402 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./imatges/epanet/inst/3.png> <./imatges/epanet/inst/4.png>]
-<imatges/epanet/4.png, id=60, 256.70906pt x 18.82031pt>
+[9
+
+ <./imatges/epanet/inst/3.png> <./imatges/epanet/inst/4.png>] [10 <./imatges/ep
+anet/1.png> <./imatges/epanet/2.png>]
+Overfull \hbox (26.63113pt too wide) in paragraph at lines 203--203
+[]\OT1/cmr/bx/n/14.4 Implementaci^^So d'u-na no-va xar-xa de dis-tri-bu-ci^^So 
+(Exem-
+ []
+
+<imatges/epanet/4.png, id=65, 256.70906pt x 18.82031pt>
 File: imatges/epanet/4.png Graphic file (type png)
 
 <use imatges/epanet/4.png>
-Package pdftex.def Info: imatges/epanet/4.png used on input line 214.
+Package pdftex.def Info: imatges/epanet/4.png used on input line 209.
 (pdftex.def)             Requested size: 256.70842pt x 18.82025pt.
- [9 <./imatges/epanet/1.png> <./imatges/epanet/2.png>] <imatges/epanet/5.png, i
-d=64, 414.79968pt x 260.47313pt>
+
+<imatges/epanet/4_1.png, id=66, 17.31468pt x 18.82031pt>
+File: imatges/epanet/4_1.png Graphic file (type png)
+
+<use imatges/epanet/4_1.png>
+Package pdftex.def Info: imatges/epanet/4_1.png used on input line 214.
+(pdftex.def)             Requested size: 17.31462pt x 18.82025pt.
+
+<imatges/epanet/4_2.png, id=67, 17.31468pt x 18.82031pt>
+File: imatges/epanet/4_2.png Graphic file (type png)
+
+<use imatges/epanet/4_2.png>
+Package pdftex.def Info: imatges/epanet/4_2.png used on input line 215.
+(pdftex.def)             Requested size: 17.31462pt x 18.82025pt.
+
+<imatges/epanet/4_3.png, id=68, 17.31468pt x 18.82031pt>
+File: imatges/epanet/4_3.png Graphic file (type png)
+
+<use imatges/epanet/4_3.png>
+Package pdftex.def Info: imatges/epanet/4_3.png used on input line 216.
+(pdftex.def)             Requested size: 17.31462pt x 18.82025pt.
+
+<imatges/epanet/4_4.png, id=69, 23.08624pt x 23.08624pt>
+File: imatges/epanet/4_4.png Graphic file (type png)
+
+<use imatges/epanet/4_4.png>
+Package pdftex.def Info: imatges/epanet/4_4.png used on input line 217.
+(pdftex.def)             Requested size: 23.08617pt x 23.08617pt.
+
+<imatges/epanet/4_5.png, id=70, 23.08624pt x 24.09pt>
+File: imatges/epanet/4_5.png Graphic file (type png)
+
+<use imatges/epanet/4_5.png>
+Package pdftex.def Info: imatges/epanet/4_5.png used on input line 218.
+(pdftex.def)             Requested size: 23.08617pt x 24.08992pt.
+
+<imatges/epanet/4_6.png, id=71, 23.08624pt x 24.09pt>
+File: imatges/epanet/4_6.png Graphic file (type png)
+
+<use imatges/epanet/4_6.png>
+Package pdftex.def Info: imatges/epanet/4_6.png used on input line 219.
+(pdftex.def)             Requested size: 23.08617pt x 24.08992pt.
+ [11
+
+ <./imatges/epanet/4.png> <./imatges/epanet/4_1.png> <./imatges/epanet/4_2.png>
+ <./imatges/epanet/4_3.png> <./imatges/epanet/4_4.png> <./imatges/epanet/4_5.pn
+g> <./imatges/epanet/4_6.png>]
+<imatges/epanet/5.png, id=76, 414.79968pt x 260.47313pt>
 File: imatges/epanet/5.png Graphic file (type png)
 
 <use imatges/epanet/5.png>
-Package pdftex.def Info: imatges/epanet/5.png used on input line 229.
+Package pdftex.def Info: imatges/epanet/5.png used on input line 234.
 (pdftex.def)             Requested size: 290.3578pt x 182.32994pt.
 
-<imatges/epanet/6.png, id=65, 422.32782pt x 252.945pt>
+<imatges/epanet/6.png, id=77, 422.32782pt x 252.945pt>
 File: imatges/epanet/6.png Graphic file (type png)
 
 <use imatges/epanet/6.png>
-Package pdftex.def Info: imatges/epanet/6.png used on input line 237.
-(pdftex.def)             Requested size: 295.62746pt x 177.06029pt.
+Package pdftex.def Info: imatges/epanet/6.png used on input line 243.
+(pdftex.def)             Requested size: 253.39864pt x 151.76816pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--243
+<imatges/epanet/car/bomba.png, id=78, 165.61874pt x 368.87813pt>
+File: imatges/epanet/car/bomba.png Graphic file (type png)
+
+<use imatges/epanet/car/bomba.png>
+Package pdftex.def Info: imatges/epanet/car/bomba.png used on input line 250.
+(pdftex.def)             Requested size: 57.96742pt x 129.10927pt.
+
+<imatges/epanet/car/diposit.png, id=79, 165.61874pt x 368.87813pt>
+File: imatges/epanet/car/diposit.png Graphic file (type png)
+
+<use imatges/epanet/car/diposit.png>
+Package pdftex.def Info: imatges/epanet/car/diposit.png used on input line 251.
+
+(pdftex.def)             Requested size: 57.96742pt x 129.10927pt.
+
+<imatges/epanet/car/sortidor.png, id=80, 165.61874pt x 368.87813pt>
+File: imatges/epanet/car/sortidor.png Graphic file (type png)
+
+<use imatges/epanet/car/sortidor.png>
+Package pdftex.def Info: imatges/epanet/car/sortidor.png used on input line 252
+.
+(pdftex.def)             Requested size: 57.96742pt x 129.10927pt.
+
+<imatges/epanet/car/valvula.png, id=81, 165.61874pt x 368.87813pt>
+File: imatges/epanet/car/valvula.png Graphic file (type png)
+
+<use imatges/epanet/car/valvula.png>
+Package pdftex.def Info: imatges/epanet/car/valvula.png used on input line 253.
+
+(pdftex.def)             Requested size: 57.96742pt x 129.10927pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--243
+Underfull \hbox (badness 10000) in paragraph at lines 231--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--243
+Underfull \hbox (badness 10000) in paragraph at lines 231--256
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 231--256
 
-[10 <./imatges/epanet/3.png> <./imatges/epanet/4.png>] [11 <./imatges/epanet/5.
-png> <./imatges/epanet/6.png>]
-<imatges/epanet/10.png, id=73, 90.3375pt x 207.02344pt>
+ []
+
+[12 <./imatges/epanet/5.png>] [13 <./imatges/epanet/6.png> <./imatges/epanet/ca
+r/bomba.png> <./imatges/epanet/car/diposit.png> <./imatges/epanet/car/sortidor.
+png> <./imatges/epanet/car/valvula.png>]
+<imatges/epanet/10.png, id=89, 90.3375pt x 207.02344pt>
 File: imatges/epanet/10.png Graphic file (type png)
 
 <use imatges/epanet/10.png>
-Package pdftex.def Info: imatges/epanet/10.png used on input line 251.
-(pdftex.def)             Requested size: 63.23581pt x 144.9154pt.
+Package pdftex.def Info: imatges/epanet/10.png used on input line 261.
+(pdftex.def)             Requested size: 54.2029pt x 124.21501pt.
 
-<imatges/epanet/11.png, id=74, 369.63094pt x 286.82156pt>
+<imatges/epanet/11.png, id=90, 369.63094pt x 286.82156pt>
 File: imatges/epanet/11.png Graphic file (type png)
 
 <use imatges/epanet/11.png>
-Package pdftex.def Info: imatges/epanet/11.png used on input line 252.
-(pdftex.def)             Requested size: 184.815pt x 143.41042pt.
-
-<imatges/epanet/12.png, id=75, 179.92218pt x 99.37125pt>
+Package pdftex.def Info: imatges/epanet/11.png used on input line 262.
+(pdftex.def)             Requested size: 147.84975pt x 114.72658pt.
+ [14 <./imatges/epanet/10.png> <./imatges/epanet/11.png>] <imatges/epanet/12.pn
+g, id=94, 179.92218pt x 99.37125pt>
 File: imatges/epanet/12.png Graphic file (type png)
 
 <use imatges/epanet/12.png>
-Package pdftex.def Info: imatges/epanet/12.png used on input line 261.
+Package pdftex.def Info: imatges/epanet/12.png used on input line 272.
 (pdftex.def)             Requested size: 89.96086pt x 49.6855pt.
 
-<imatges/epanet/13.png, id=76, 346.29375pt x 289.08pt>
-File: imatges/epanet/13.png Graphic file (type png)
-
-<use imatges/epanet/13.png>
-Package pdftex.def Info: imatges/epanet/13.png used on input line 267.
-(pdftex.def)             Requested size: 173.14644pt x 144.53964pt.
- [12 <./imatges/epanet/10.png> <./imatges/epanet/11.png> <./imatges/epanet/12.p
-ng>] [13 <./imatges/epanet/13.png>]
-<imatges/epanet/15.png, id=84, 165.61874pt x 194.97844pt>
-File: imatges/epanet/15.png Graphic file (type png)
-
-<use imatges/epanet/15.png>
-Package pdftex.def Info: imatges/epanet/15.png used on input line 277.
-(pdftex.def)             Requested size: 115.93231pt x 136.48396pt.
-
-<imatges/epanet/16.png, id=85, 91.09032pt x 207.77625pt>
-File: imatges/epanet/16.png Graphic file (type png)
-
-<use imatges/epanet/16.png>
-Package pdftex.def Info: imatges/epanet/16.png used on input line 283.
-(pdftex.def)             Requested size: 45.54503pt x 103.88786pt.
-
-<imatges/epanet/17.png, id=86, 369.63094pt x 286.82156pt>
-File: imatges/epanet/17.png Graphic file (type png)
-
-<use imatges/epanet/17.png>
-Package pdftex.def Info: imatges/epanet/17.png used on input line 284.
-(pdftex.def)             Requested size: 258.73988pt x 200.77371pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--288
+Underfull \hbox (badness 10000) in paragraph at lines 268--276
 
  []
 
-<imatges/epanet/18.png, id=87, 165.61874pt x 319.1925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--276
+
+ []
+
+<imatges/epanet/reports/energia.png, id=95, 440.39531pt x 157.33781pt>
+File: imatges/epanet/reports/energia.png Graphic file (type png)
+
+<use imatges/epanet/reports/energia.png>
+Package pdftex.def Info: imatges/epanet/reports/energia.png used on input line 
+283.
+(pdftex.def)             Requested size: 220.19711pt x 78.6687pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imatges/epanet/reports/balans.png, id=96, 874.76813pt x 322.20375pt>
+File: imatges/epanet/reports/balans.png Graphic file (type png)
+
+<use imatges/epanet/reports/balans.png>
+Package pdftex.def Info: imatges/epanet/reports/balans.png used on input line 2
+91.
+(pdftex.def)             Requested size: 437.383pt x 161.10147pt.
+
+Overfull \hbox (47.383pt too wide) in paragraph at lines 291--292
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imatges/epanet/reports/taula.png, id=97, 425.33907pt x 548.0475pt>
+File: imatges/epanet/reports/taula.png Graphic file (type png)
+
+<use imatges/epanet/reports/taula.png>
+Package pdftex.def Info: imatges/epanet/reports/taula.png used on input line 29
+9.
+(pdftex.def)             Requested size: 212.669pt x 274.02307pt.
+ [15
+
+ <./imatges/epanet/12.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./imatges/epanet/reports/energia.png> <./imatges/epanet/reports/balans.png
+>] [17 <./imatges/epanet/reports/taula.png>]
+<imatges/epanet/15.png, id=107, 166.37157pt x 368.87813pt>
+File: imatges/epanet/15.png Graphic file (type png)
+
+<use imatges/epanet/15.png>
+Package pdftex.def Info: imatges/epanet/15.png used on input line 314.
+(pdftex.def)             Requested size: 116.45929pt x 258.21292pt.
+
+<imatges/epanet/16.png, id=108, 369.63094pt x 286.06876pt>
+File: imatges/epanet/16.png Graphic file (type png)
+
+<use imatges/epanet/16.png>
+Package pdftex.def Info: imatges/epanet/16.png used on input line 321.
+(pdftex.def)             Requested size: 184.815pt x 143.03403pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--325
+
+ []
+
+[18 <./imatges/epanet/15.png>]
+<imatges/epanet/18.png, id=113, 165.61874pt x 368.87813pt>
 File: imatges/epanet/18.png Graphic file (type png)
 
 <use imatges/epanet/18.png>
-Package pdftex.def Info: imatges/epanet/18.png used on input line 294.
-(pdftex.def)             Requested size: 115.93231pt x 223.43321pt.
+Package pdftex.def Info: imatges/epanet/18.png used on input line 329.
+(pdftex.def)             Requested size: 82.80916pt x 184.4386pt.
 
+Overfull \hbox (4.09262pt too wide) in paragraph at lines 333--334
+[]\OT1/cmr/m/n/12 Establir una con-fi-gu-ra-ci^^So glo-bal per tots els no-des 
+des de $\OT1/cmtt/m/n/12 Menu / Porject /
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imatges/epanet/19.png, id=88, 220.57407pt x 280.79906pt>
+<imatges/epanet/19.png, id=114, 220.57407pt x 280.79906pt>
 File: imatges/epanet/19.png Graphic file (type png)
 
 <use imatges/epanet/19.png>
-Package pdftex.def Info: imatges/epanet/19.png used on input line 299.
-(pdftex.def)             Requested size: 154.40079pt x 196.558pt.
+Package pdftex.def Info: imatges/epanet/19.png used on input line 337.
+(pdftex.def)             Requested size: 110.28676pt x 140.39919pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./imatges/epanet/15.png>] [15 <./imatges/epanet/16.png> <./imatges/epanet/
-17.png> <./imatges/epanet/18.png>]
-<imatges/epanet/components.png, id=95, 718.93594pt x 264.99pt>
+[19 <./imatges/epanet/16.png> <./imatges/epanet/18.png>] [20 <./imatges/epanet/
+19.png>] <imatges/epanet/components.png, id=121, 718.93594pt x 264.99pt>
 File: imatges/epanet/components.png Graphic file (type png)
 
 <use imatges/epanet/components.png>
-Package pdftex.def Info: imatges/epanet/components.png used on input line 318.
+Package pdftex.def Info: imatges/epanet/components.png used on input line 354.
 (pdftex.def)             Requested size: 359.46709pt x 132.49467pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 351--359
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
-[16 <./imatges/epanet/19.png>] [17 <./imatges/epanet/components.png>]
-<imatges/epanet/exemples/x1.png, id=102, 769.87625pt x 570.13pt>
-File: imatges/epanet/exemples/x1.png Graphic file (type png)
 
-<use imatges/epanet/exemples/x1.png>
-Package pdftex.def Info: imatges/epanet/exemples/x1.png used on input line 340.
+Underfull \hbox (badness 10000) in paragraph at lines 351--359
 
-(pdftex.def)             Requested size: 184.93854pt x 142.26247pt.
-
-<imatges/epanet/exemples/x2.jpg, id=103, 338.76563pt x 260.47313pt>
-File: imatges/epanet/exemples/x2.jpg Graphic file (type jpg)
-
-<use imatges/epanet/exemples/x2.jpg>
-Package pdftex.def Info: imatges/epanet/exemples/x2.jpg used on input line 342.
-
-(pdftex.def)             Requested size: 184.94667pt x 142.26306pt.
-
-<imatges/epanet/exemples/x3.jpg, id=104, 986.9372pt x 575.90157pt>
-File: imatges/epanet/exemples/x3.jpg Graphic file (type jpg)
-
-<use imatges/epanet/exemples/x3.jpg>
-Package pdftex.def Info: imatges/epanet/exemples/x3.jpg used on input line 343.
-
-(pdftex.def)             Requested size: 184.94485pt x 142.26146pt.
-
-<imatges/epanet/exemples/x4.jpg, id=105, 803.0pt x 599.23875pt>
-File: imatges/epanet/exemples/x4.jpg Graphic file (type jpg)
-
-<use imatges/epanet/exemples/x4.jpg>
-Package pdftex.def Info: imatges/epanet/exemples/x4.jpg used on input line 345.
-
-(pdftex.def)             Requested size: 184.94342pt x 142.25667pt.
- [18
-
- <./imatges/epanet/exemples/x1.png (PNG copy)> <./imatges/epanet/exemples/x2.jp
-g> <./imatges/epanet/exemples/x3.jpg> <./imatges/epanet/exemples/x4.jpg>] [19
-
-] [20
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
-\OT1/cmtt/m/n/12 https : / / cfpub . epa . gov / si / si _ public _ record _ re
-port . cfm ?
  []
 
 [21
 
-] (./xarxes/primera.inp [22
+ <./imatges/epanet/components.png>] [22]
+<imatges/epanet/exemples/x1.png, id=128, 769.87625pt x 570.13pt>
+File: imatges/epanet/exemples/x1.png Graphic file (type png)
 
-] [23] [24] [25]) [26] (./memoria.aux) ) 
+<use imatges/epanet/exemples/x1.png>
+Package pdftex.def Info: imatges/epanet/exemples/x1.png used on input line 374.
+
+(pdftex.def)             Requested size: 184.93854pt x 142.26247pt.
+
+<imatges/epanet/exemples/x2.jpg, id=129, 338.76563pt x 260.47313pt>
+File: imatges/epanet/exemples/x2.jpg Graphic file (type jpg)
+
+<use imatges/epanet/exemples/x2.jpg>
+Package pdftex.def Info: imatges/epanet/exemples/x2.jpg used on input line 376.
+
+(pdftex.def)             Requested size: 184.94667pt x 142.26306pt.
+
+<imatges/epanet/exemples/x3.jpg, id=130, 986.9372pt x 575.90157pt>
+File: imatges/epanet/exemples/x3.jpg Graphic file (type jpg)
+
+<use imatges/epanet/exemples/x3.jpg>
+Package pdftex.def Info: imatges/epanet/exemples/x3.jpg used on input line 377.
+
+(pdftex.def)             Requested size: 184.94485pt x 142.26146pt.
+
+<imatges/epanet/exemples/x4.jpg, id=131, 803.0pt x 599.23875pt>
+File: imatges/epanet/exemples/x4.jpg Graphic file (type jpg)
+
+<use imatges/epanet/exemples/x4.jpg>
+Package pdftex.def Info: imatges/epanet/exemples/x4.jpg used on input line 379.
+
+(pdftex.def)             Requested size: 184.94342pt x 142.25667pt.
+ [23
+
+ <./imatges/epanet/exemples/x1.png (PNG copy)> <./imatges/epanet/exemples/x2.jp
+g> <./imatges/epanet/exemples/x3.jpg> <./imatges/epanet/exemples/x4.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 405.
+[24
+
+] <imatges/teva-spot/esquema.png, id=140, 310.15875pt x 649.42625pt>
+File: imatges/teva-spot/esquema.png Graphic file (type png)
+
+<use imatges/teva-spot/esquema.png>
+Package pdftex.def Info: imatges/teva-spot/esquema.png used on input line 414.
+(pdftex.def)             Requested size: 155.079pt x 324.71233pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--418
+
+ []
+
+[25 <./imatges/teva-spot/esquema.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
+
+ []
+
+[26] [27
+
+] [28
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+\OT1/cmtt/m/n/12 https : / / cfpub . epa . gov / si / si _ public _ record _ re
+port . cfm ?
+ []
+
+[29
+
+] (./xarxes/exportades/x1.inp [30
+
+] [31] [32] [33])
+(./xarxes/reports/Net3_status.txt
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+
+Overfull \hbox (26.00403pt too wide) in paragraph at lines 3--4
+[][] 
+ []
+
+
+Overfull \hbox (26.00403pt too wide) in paragraph at lines 8--10
+[][] 
+ []
+
+[34]
+Overfull \hbox (56.00433pt too wide) in paragraph at lines 14--15
+[][] 
+ []
+
+[35] [36]) [37] (./memoria.aux) ) 
 Here is how much of TeX's memory you used:
- 4363 strings out of 493029
- 58946 string characters out of 6136234
- 449326 words of memory out of 5000000
- 7802 multiletter control sequences out of 15000+600000
- 10734 words of font info for 38 fonts, out of 8000000 for 9000
+ 4437 strings out of 493029
+ 60848 string characters out of 6136234
+ 449347 words of memory out of 5000000
+ 7856 multiletter control sequences out of 15000+600000
+ 11348 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,34p,441b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt12.pfb>
-Output written on memoria.pdf (27 pages, 1508783 bytes).
+ 37i,8n,34p,423b,1639s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt12.pfb>
+Output written on memoria.pdf (38 pages, 1648655 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
