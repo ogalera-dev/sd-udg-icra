@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+<head>
+  <meta name="sandia.approval_type" content="formal" />
+  <meta name="sandia.approved" content="SAND 2008-4420 W" />
+  <meta name="sandia.create_date" content="09/24/2008" />
+  <meta name="keywords" content="optimization logistics integer programming" />
+  <meta name="description" content="ACRO project trac pages" />
+  <link rev="owns" title="Content Owner" href="mailto:wehart@sandia.gov" />
+    <title>
+      Acro
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="search" href="/trac/acro/search" />
+        <link rel="help" href="/trac/acro/wiki/TracGuide" />
+        <link rel="alternate" href="/trac/acro/wiki/WikiStart?format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="start" href="/trac/acro/wiki" />
+        <link rel="stylesheet" href="/trac/acro/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/acro/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="shortcut icon" href="/trac/acro/chrome/shared/sandia_icon.ico" type="image/x-icon" />
+        <link rel="icon" href="/trac/acro/chrome/shared/sandia_icon.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/trac/acro/search/opensearch" title="Search Acro" />
+    <script type="text/javascript" src="/trac/acro/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/trac/acro/chrome/common/js/babel.js"></script><script type="text/javascript" src="/trac/acro/chrome/common/js/trac.js"></script><script type="text/javascript" src="/trac/acro/chrome/common/js/search.js"></script><script type="text/javascript" src="/trac/acro/chrome/common/js/folding.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/acro/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor(_("Link to this section"));
+        $("#content").find(".wikianchor").each(function() {
+          $(this).addAnchor(babel.format(_("Link to #%(id)s"), {id: $(this).attr('id')}));
+        });
+        $(".foldable").enableFolding(true, true);
+      });
+    </script>
+  <link rel="stylesheet" href="/trac/acro/chrome/shared/snl.css" type="text/css" />
+  <style>
+    #header { margin-bottom: -73px; }
+    #sitenav {
+       clear: both;
+       color: #aaa;
+       font-size: 12px;
+       text-align: right;
+       margin-right: 10px;
+       margin-bottom: 14px;
+    }
+    #sitenav, #sitenav :link, #sitenav :visited {
+      color: #fff;
+    }
+    #sitenav :link:hover, #sitenav :visited:hover {
+      color: #333;
+      background-color: #08b; /* pulled from the background of the SNL logo */
+    }
+  </style>
+   <link rel="stylesheet" href="/trac/acro/chrome/tracnav/css/tracnav.css" type="text/css" />
+</head>
+<body>
+    <div style="background-image: url(/trac/acro/chrome/shared/snl-banner-back.jpg);" id="banner">
+    <a id="snlbanner_link" href="http://www.sandia.gov"><img src="/trac/acro/chrome/shared/snl-banner.gif" alt="Sandia National Laboratories" /></a>
+    <div id="header">
+        <a id="logo" href="https://software.sandia.gov/trac/acro"><img src="/trac/acro/chrome/site/acro-trans.png" alt="[Acro Trac Home]" /></a>
+      </div>
+    <div id="sitenav" class="nav">
+      <ul>
+      <li class="first"><a href="/trac/acro">Acro Home</a></li><li><a href="/trac/acro/blog">Blog</a></li><li><a href="/trac/acro/wiki/Community">Community</a></li><li class="last"><a href="/trac/acro/wiki/Licensing">Licensing</a></li>
+    </ul>
+    </div>
+    <form name="search" id="search" action="/trac/acro/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="Search Acro" onblur="if(value==''){value='Search Acro'}" onfocus="if(value=='Search Acro'){value=''}" />
+          <input onclick="if (document.search.q.value == 'Search Acro') document.search.q.value = ''" type="submit" value="Search" />
+        </div>
+    </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/acro/login">Login</a></li><li><a href="/trac/acro/prefs">Preferences</a></li><li><a href="/trac/acro/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="/trac/acro/about">About Trac</a></li>
+    </ul>
+  </div>
+  </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/trac/acro/wiki">Wiki</a></li><li><a href="/trac/acro/timeline">Timeline</a></li><li><a href="/trac/acro/roadmap">Roadmap</a></li><li><a href="/trac/acro/browser">Source</a></li><li><a href="/trac/acro/query">Tickets</a></li><li><a href="/trac/acro/newticket">New Ticket</a></li><li><a href="/trac/acro/downloader">Downloads</a></li><li><a href="/trac/acro/blog">News</a></li><li class="last"><a href="/trac/acro/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="pagepath" class="noprint">
+  <a class="pathentry first" title="View WikiStart" href="/trac/acro/wiki">wiki:</a><a class="pathentry" href="/trac/acro/wiki/WikiStart" title="View WikiStart">WikiStart</a>
+</div>
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><a href="/trac/acro/wiki/WikiStart">Start Page</a></li><li><a href="/trac/acro/wiki/TitleIndex">Index</a></li><li class="last"><a href="/trac/acro/wiki/WikiStart?action=history">History</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+    <div class="wikipage searchable">
+      <p>
+</p><div class="wiki-toc trac-nav"><ul><li><h4>Hot Links</h4></li><ul><li><a class="wiki" href="/trac/acro/wiki/Overview">Overview</a></li><li><a class="wiki" href="/trac/acro/wiki/AcroIs">Acro is...</a></li><li><a class="wiki" href="/trac/acro/wiki/Overview/Projects">Projects</a></li><li><a class="wiki" href="/trac/acro/wiki/Packages">Packages</a></li><li><a class="wiki" href="/trac/acro/wiki/GettingStarted">Getting Started</a></li><li><a class="wiki" href="/trac/acro/wiki/Help">Help</a></li><li><a class="wiki" href="/trac/acro/wiki/Licensing">Licensing</a></li></ul><li><h4>General Information</h4></li><ul><li><a class="wiki" href="/trac/acro/wiki/Development/Tools">Tools</a></li><li><a class="wiki" href="/trac/acro/wiki/FAQ">FAQ</a></li><li><a class="wiki" href="/trac/acro/wiki/Documentation">Documentation</a></li><li><a class="wiki" href="/trac/acro/wiki/ContactUs">Contact Us</a></li><li><a class="wiki" href="/trac/acro/wiki/RelatedProjects">Related Projects</a></li><li><a class="wiki" href="/trac/acro/wiki/ReferencingAcro">Referencing Acro</a></li></ul><li><h4>Development</h4></li><ul><li><a class="wiki" href="/trac/acro/wiki/Development/BrowseSource">Browse Source</a></li><li><a class="wiki" href="/trac/acro/wiki/Development/MailingLists">Mailing Lists</a></li><li><a class="wiki" href="/trac/acro/wiki/Development/Resources">Resources</a></li><li><a class="wiki" href="/trac/acro/wiki/Development/Notes">Notes</a></li><li><a class="wiki" href="/trac/acro/wiki/Development/NightlyTests">Nightly Tests</a></li><li><h4>Tickets</h4></li><ul><li><a class="report" href="/trac/acro/report/7">My Tickets</a></li><li><a class="report" href="/trac/acro/report/12">My Tickets by Component</a></li><li><a class="report" href="/trac/acro/report/3">Active Tickets by Milestone</a></li><li><a class="report" href="/trac/acro/report/9">Active Tickets by Component</a></li><li><a class="report" href="/trac/acro/report/11">Tickets by Revision Time</a></li><li><a class="report" href="/trac/acro/report/13">Tickets by Owner</a></li></ul></ul><li><h4>Trac Information</h4></li><ul><li><a class="wiki" href="/trac/acro/wiki/Help/AboutTrac">About Trac</a></li><li><a class="wiki" href="/trac/acro/wiki/WikiFormatting">Wiki Formatting</a></li><li><a class="wiki" href="/trac/acro/wiki/TracLinks">Trac Links</a></li><li><a class="wiki" href="/trac/acro/wiki/TitleIndex">Wiki Index</a></li></ul></ul></div><p>
+</p>
+ 
+      
+        
+          
+          <div class="trac-modifiedby"><a href="/trac/acro/wiki/WikiStart?action=diff&amp;version=14" title="Version 14 by jdsiiro">Last modified</a> <a class="timeline" href="/trac/acro/timeline?from=2011-01-03T10%3A44%3A25-07%3A00&amp;precision=second" title="2011-01-03T10:44:25-07:00 in Timeline">7 years</a> ago</div>
+          <div id="wikipage"><h1 id="ACRO:ACommonRepositoryforOptimizers">ACRO: A Common Repository for Optimizers</h1>
+<p>
+Acro integrates a rich variety of optimization libraries and solvers that have been developed for large-scale engineering and scientific applications. Acro was developed to facilitate the design, development, integration and support of optimization software libraries. Thus, Acro includes both individual optimization solvers as well as optimization frameworks that provide abstract interfaces for flexible interoperability of solver components. Furthermore, many solvers included in Acro can exploit parallel computing resources to solve optimization problems more quickly. 
+</p>
+<h2 id="RecentNews">Recent News</h2>
+<p>
+</p>
+
+  
+  
+
+  
+  
+    <div class="blog"><div class="monthlist">
+      
+      
+      <ul>
+        <li>
+          <a href="/trac/acro/blog/20100728-CommitHook">Note to developers: Subversion post-commit hook</a>
+          <span class="metainfo">
+             -- Posted 2010-07-28 11:56
+            
+              by <a href="/trac/acro/blog/author/wehart">wehart</a>
+            
+            
+              : categories
+              <span>
+                <a href="/trac/acro/blog/category/developers">developers</a>
+              </span>
+            
+          </span>
+        </li><li>
+          <a href="/trac/acro/blog/about">Welcome to Acro!</a>
+          <span class="metainfo">
+             -- Posted 2010-06-29 10:20
+            
+              by <a href="/trac/acro/blog/author/jdsiiro">jdsiiro</a>
+            
+            
+              : categories
+              <span>
+                <a href="/trac/acro/blog/category/announcements">announcements</a>
+              </span>
+            
+          </span>
+        </li>
+      </ul>
+  </div></div>
+  
+
+<p>
+</p>
+<h2 id="RecentActivity">Recent Activity</h2>
+<p>
+<span class="code-block">&lt;pre&gt;/,4,format=inline&lt;/pre&gt;</span>
+</p>
+<hr />
+<h3 id="ConditionsforContributors">Conditions for Contributors</h3>
+<p>
+By contributing to this software project, you are agreeing to the following terms and conditions for your contributions:  First, you agree your contributions are submitted  under the BSD license.  Second, you represent you are authorized to make the contributions and grant the license.  If your employer has rights to intellectual property that includes your contributions, you represent that you have received permission to make contributions and grant the required license on behalf of that employer. 
+</p>
+</div>
+        
+        
+      
+    </div>
+      
+
+    </div>
+    <script type="text/javascript">
+        jQuery.loadStyleSheet("/trac/acro/chrome/tracfullblog/css/fullblog.css", "text/css");
+    </script>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/trac/acro/wiki/WikiStart?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  <div id="footer" lang="en" xml:lang="en">
+    <a id="traclogo" href="http://trac.edgewall.org/"><img src="/trac/acro/chrome/common/trac_logo_mini.png" alt="Trac Powered" /></a>
+    <a id="snllogo" href="http://www.sandia.gov/"><img src="/trac/acro/chrome/shared/sandia_logo.png" alt="Sandia National Laboratories" /></a>
+    <p align="center">
+      ©2010 Sandia Corporation <br />
+      <a href="http://www.sandia.gov/general/privacy-security/index.html">Privacy and Security</a> |
+        <a class="wiki" href="/trac/acro/wiki/ContactUs">Site Contact</a>
+    </p>
+  </div>
+</body>
+</html>
