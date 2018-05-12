@@ -1,0 +1,5 @@
+$ cd spot
+$ ./setup
+$ autoreconf -i -f
+$ ./configure
+$ make

@@ -1,0 +1,1 @@
+$ svn checkout -q https://software.sandia.gov/svn/public/acro/acro-pico/trunk acro-pico

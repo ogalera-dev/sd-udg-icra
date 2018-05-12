@@ -138,7 +138,7 @@ Aquesta eina està dotada d'una interfície de comandes i una interfície gràfi
 		\item Planificar les possibles respostes dels sensors.
 		\item Identificació d'una possible posició per cada sensor.
 	\end{enumerate}
-	\item Fase de pressa de decisions.
+	\item Fase de presa de decisions.
 \end{itemize}
 
 \subsubsection{Dependències}
@@ -220,7 +220,7 @@ Algunes de les eines més importants són
 \end{itemize}
 
 \subsubsection{Disseny}
-En primer lloc repartim els componen que composen la xarxa, en aquest cas disposem de:
+En primer lloc, s'ha de repartir els componen que componen la xarxa, en aquest exemple disposem de:
 \begin{itemize}
 	\item 1 diposit (1)
 	\item 8 nodes (2-9)
@@ -234,8 +234,8 @@ Aquesta representació quedarà de la següent manera.
 	\includegraphics[scale=.7]{imatges/epanet/5.png}
 	\caption{Diagrama sense connexions.}
 \end{figure}
-\\\\Ara toca connectar els components a través de canonades, per això, fem les següents connexions 1-2, 3-4, 4-9, 3-5, 5-6, 5-7\footnote{Com que aquesta connexió no és recta, cal resseguir el camí per representar la corba de la canonada.}, 6-7, 4-6. 
-\\\\Tot seguit connectem els nodes 2-3 amb una bomba i els nodes 4-9 i 7-8 amb una vàlvula.
+\\\\Ara toca connectar els components a través de canonades, per això, s'apliquen les següents connexions 1-2, 3-4, 4-9, 3-5, 5-6, 5-7\footnote{Com que aquesta connexió no és recta, cal resseguir el camí per representar la corba de la canonada.}, 6-7, 4-6. 
+\\\\Tot seguit, es connecten els nodes 2-3 amb una bomba i els nodes 4-9 i 7-8 amb una vàlvula.
 \\\\L'estructura de la xarxa hauria de ser similar a la de la següent imatge
 \pagebreak
 \begin{figure}[h!]
@@ -244,18 +244,18 @@ Aquesta representació quedarà de la següent manera.
 	\caption{Diagrama amb connexions.}
 \end{figure}
 Un cop es té la distribució dels components, cal assignar les propietats que caracteritzen a cada component, per això s'ha de fer doble clic sobre el component i canviar els seus valors.
-\\\\Per aquest exemple canviarem les següents propietats: 
+\\\\Per aquest exemple, es canvien les següents propietats: 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.35]{imatges/epanet/car/bomba.png}
 	\includegraphics[scale=0.35]{imatges/epanet/car/diposit.png}
 	\includegraphics[scale=0.35]{imatges/epanet/car/sortidor.png}
 	\includegraphics[scale=0.35]{imatges/epanet/car/valvula.png}
-	\caption{Bomba, diposit, sortidor i valvula}
+	\caption{Bomba, diposit, sortidor i vàlvula}
 \end{figure}
 
 \pagebreak
-Per crear la configuració de la corba característica de la bomba, seleccionem \say{curve} del desplegable del \say{browser} i creem una nova corba.
+Per crear la configuració de la corba característica de la bomba, es selecciona \say{curve} del desplegable del \say{browser}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.6]{imatges/epanet/10.png}
@@ -265,16 +265,16 @@ Per crear la configuració de la corba característica de la bomba, seleccionem 
 
 \clearpage
 \subsection{Anàlisi simple (Net3.net)}
-Un cop s'ha modelat la xarxa, es pot realitzar una anàlisi hidràulic de règim permanent\footnote{Les necessitats dels diferents nusos no varien en funció del temps}. El primer que farem és guardar el model\footnote{El format d'emmagatzemament per defecte dels projectes és binari (.net).}, seguidament, per executar-lo cal fer clic al botó \path{Menu/Project/Run Analisys}. 
+Un cop s'ha modelat la xarxa, es pot realitzar una anàlisi hidràulic de règim permanent\footnote{Les necessitats dels diferents nusos no varien en funció del temps}. El primer que s'ha de fer és guardar el model\footnote{El format d'emmagatzemament per defecte dels projectes és binari (.net).}, seguidament, per executar-lo cal fer clic al botó \path{Menu/Project/Run Analisys}. 
 \\\\Si tot ha anat bé i el model és correcte, hauria de sortir la següent finestra informativa.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=.5]{imatges/epanet/12.png}
-	\caption{Execució correcte.}
+	\caption{Execució correcta.}
 \end{figure}
 \\\\Aquesta acció genera diferents resultats accessibles des de \path{Menu/Report}. Alguns d'aquests resultats són:
 \subsubsection{Status report}
-S'hi pot accedir des de \path{Menu/Report/Status} i conté el log de tots els events generats durant la simulació. El resultat per aquesta simulació es pot veure en l'\textbf{annex \ref{ann2}}.
+S'hi pot accedir des de \path{Menu/Report/Status} i conté el log de tots els esdeveniments generats durant la simulació. El resultat per aquesta simulació es pot veure en l'\textbf{annex \ref{ann2}}.
 
 \subsubsection{Energy report}
 S'hi pot accedir des de \path{Menu/Report/Energy} i conté una taula amb el comportament de les bombes en la simulació.
@@ -284,6 +284,7 @@ S'hi pot accedir des de \path{Menu/Report/Energy} i conté una taula amb el comp
 	\caption{Taula d'energia de les bombes.}
 \end{figure}
 
+\pagebreak
 \subsubsection{Balanç}
 S'hi pot accedir des de \path{Menu/Report/Graph} seleccionant \textit{System Flow} com a tipus de graf.
 \begin{figure}[h!]
@@ -307,30 +308,30 @@ S'hi pot accedir des de \path{Menu/Report/Full} i genera un fitxer \textit{.rep}
 
 \pagebreak
 \subsection{Període variant}
-Per fer el model més realista, es pot adaptar perquè la demanda dels nodes variï en funció del temps, això es farà gràcies a un patró que assignarem com a corba de modulació. 
-\\\\Per posar un exemple, configurarem la xarxa de tal manera que la simulació tingui una durada de 72 hores i que el patró dels components canviï cada hora. Per a establir aquesta configuració s'ha de seleccionar l'opció \path{Browser/Options/Time} i assignar un valor de 72 a la variable \textit{Total duration} i un valor d'1 a la variable \textit{Pattern time step}.
+Per fer el model més realista, es pot adaptar perquè la demanda dels nodes variï en funció del temps, això s'aconsegueix gràcies a un patró que s'assigna als components. 
+\\\\Per posar un exemple, es configura la xarxa de tal manera que la simulació tingui una durada de 72 hores i que el patró dels components canviï cada hora. Per a establir aquesta configuració s'ha de seleccionar l'opció \path{Browser/Options/Time} i assignar un valor de 72 a la variable \textit{Total duration} i un valor d'1 a la variable \textit{Pattern time step}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=.7]{imatges/epanet/15.png}
 	\caption{Configuració dels intervals de temps.}
 \end{figure}
-\\\\Un cop tenim configurada la freqüència de variació, cal configurar el grau de demanda a cada interval, per fer això cal crear patrons i això es pot fer des de \path{Browser/Options/Patterns}. 
+\\\\Un cop es té configurada la freqüència de variació, cal configurar el grau de demanda a cada interval, per fer això s'han de crear patrons i es pot fer des de \path{Browser/Options/Patterns}. 
 \pagebreak
 \begin{figure}
 	\centering
 	\includegraphics[scale=.5]{imatges/epanet/16.png}
 	\caption{Configuració del patró pel temps.}
 \end{figure}
-\\\\Un cop es té creat el patró, s'ha d'assignar com a corba de modulació, per a fer això hi ha dues opcions:
+\\\\Un cop es té creat el patró, s'ha d'assignar, per a fer això hi ha dues opcions:
 \begin{itemize}
-	\item Configurar cada node amb el patró.
+	\item Configurar cada node amb el patró (permet tenir nodes amb diferents patrons).
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=.5]{imatges/epanet/18.png}
 	\caption{Configuració d'un node}
 	\label{fig:confNodeAnode}
 \end{figure}
-	\item Establir una configuració global per tots els nodes des de \path{Menu/Porject/Defaults.../Hydraulics}. Aquesta configuració només és possible si es disposa d'un únic patró.
+	\item Establir una configuració global per tots els nodes des de \path{Menu/Porject/Defaults.../Hydraulics}.
 \end{itemize}
 \begin{figure}[h!]
 	\centering
@@ -338,7 +339,7 @@ Per fer el model més realista, es pot adaptar perquè la demanda dels nodes var
 	\caption{Configuració global}
 	\label{fig:confGlobal}
 \end{figure}
-Configurada la xarxa, es pot executar i obtenir uns resultats, on aquest cop, variarant les propietats dels components en funció del temps.
+Configurada la xarxa, es pot executar i obtenir uns resultats, on aquest cop, varien les propietats dels components en funció del temps.
 
 \clearpage
 \subsection{Propietats}
@@ -348,13 +349,13 @@ En aquest apartat es descriuen algunes de les propietats del programa.
 En el manual d'usuari\cite{DocuEpanet} es descriuen detalladament els algorismes utilitzats en l'informe de resultats de la qualitat de l'aigua.
 
 \subsubsection{Format dels fitxers d'exportació}
-Els fitxers d'exportació que es generen des de \textit{EPANET} i que llavors podem importar a altres eines, estan definits per un seguit de capçaleres i les seves propietats, on cada capçalera correspon a un component representable. En la següent imatge es llisten els components disponibles.
+Els fitxers d'exportació que es generen des de \textit{EPANET} i que llavors es poden importar a altres eines, estan definits per un seguit de capçaleres juntament amb les seves propietats, on cada capçalera correspon a un component representable. En la següent imatge es llisten els components disponibles.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=.5]{imatges/epanet/components.png}
 	\caption{Representació dels components d'EPANET}
 \end{figure}
-\\\\Per exemple, per exportar la xarxa desenvolupada en la secció \ref{xarxaEPANET} (Exemple.net) s'ha d'accedir a \path{Menu/Expor/Map} i seleccionar el format que volem exportar, en aquest cas exportarem la xarxa sencera, i per això, seleccionem \textit{Network...} i li assignem un nom. Això generarà un fitxer amb extensió \textit{.inp} que inclou totes les propietats de la xarxa.
+\\\\Per exemple, per exportar la xarxa desenvolupada en la secció \ref{xarxaEPANET} (Exemple.net) s'ha d'accedir a \path{Menu/Expor/Map} i seleccionar el format en que es vol exportar, en aquest cas s'exportarà la xarxa sencera, i per això, es selecciona \textit{Network...} Aquest procés generarà un fitxer amb extensió \textit{.inp} que inclou totes les propietats de la xarxa.
 \\\\El contingut de l'arxiu per aquesta xarxa es pot veure en \textbf{l'annex \ref{ann1}.}
 
 \subsubsection{Interpretació dels errors}
@@ -390,9 +391,9 @@ L'eina EPANET és intuïtiva i senzilla d'utilitzar, pot carregar models que est
 En aquesta secció es mostra com es pot modelar un problema de posicionament de sensors sobre una xarxa de distribució d'aigua, utilitzat l'eina TEVA-SPOT.
 \\\\\textbf{És important assegurar que el model a utilitzar s'executa correctament utilitzant l'eina \textit{EPANET}.}
 \subsection{Instal·lació}
-Aquesta eina disposa d'una línea de comandes i d'una interficie gràfica, segons les necessitats de cada usuari es pot utilitzar una versió del programa o una altre.
+Aquesta eina disposa d'una línia de comandes i d'una interfície gràfica, segons les necessitats de cada usuari es pot utilitzar una versió del programa o un altre.
 
-\subsubsection{Linia de comandes}
+\subsubsection{Línia de comandes}
 Descarregar els binaris del programa \cite{tevaSpotExec}.
 
 \subsubsection{Interfície gràfica}
@@ -405,7 +406,7 @@ L'eina TEVA-SPOT Toolkit també disposa d'una interfície gràfica\cite{tevaSpot
 \textbf{Aquestes dependències, cal que estiguin instal·lades abans de començar la instal·lació de TEVA-SPOT.}
 
 \subsection{Metodologia de posicionament de sensors}
-Hi ha diferentes metodologies per resoldre el problema del posicionament de sensors\footnote{Metodologies basades en l'opinió d'experts, mètodes de ranking, optimització, etc.}, la metodologia utilitzada per TEVA-SPOT Toolkit és l'optimització on l'objectiu és trobar una configuració de sensors que minimitzi el risc dels contaminants.
+Hi ha diferents metodologies per resoldre el problema del posicionament de sensors\footnote{Metodologies basades en l'opinió d'experts, mètodes de ranking, optimització, etc.}, la metodologia utilitzada per TEVA-SPOT Toolkit és l'optimització on l'objectiu és trobar una configuració de sensors que minimitzi el risc dels contaminants.
 
 \subsection{Estructura de dades}
 L'estructura de dades que utilitza TEVA-SPOT és jeràrquica, i es pot representar en el següent esquema.
@@ -417,7 +418,7 @@ L'estructura de dades que utilitza TEVA-SPOT és jeràrquica, i es pot represent
 \\\\TEVA-SPOT té dos modes de treball.
 \begin{itemize}
 	\item \textit{Ensamble analysis mode:} és el mode a utilitzar per fer l'anàlisi de vulnerabilitat dels contaminants i el disseny de la xarxa de sensors.
-	\item \textit{Regret analysis mode:} és el mode a utilitar per analitzar la xarxa de sensors. 
+	\item \textit{Regret analysis mode:} és el mode a utilitzar per analitzar la xarxa de sensors. 
 \end{itemize}
 \subsection{Exemple}
 Per veure el funcionament d'aquesta eina, s'analitzarà una de les xarxes que ja ve com a exemple amb el programa. Aquesta xarxa és la \textit{Net3} i compta amb 97 nodes.
@@ -426,8 +427,8 @@ Per veure el funcionament d'aquesta eina, s'analitzarà una de les xarxes que ja
 	\item Definir l'estructura del projecte.
 	\item Simulació d'incidents contaminants.
 	\item Computar l'impacte dels contaminants.
+	\item Configuració de l'anàlisi.
 	\item Posicionament de sensors.
-	\item Evaluar el posicionament de sensors.
 \end{enumerate}
 
 \subsubsection{Definir l'estructura del projecte\label{epa_estructura}}
@@ -437,62 +438,76 @@ El primer que cal fer per començar a treballar amb TEVA-SPOT és definir un ens
 	\includegraphics[scale=.5]{imatges/teva-spot/1.png}
 	\caption{Nou ensamblat.}
 \end{figure}
-\\\\Fet això, s'ha de importar la xarxa generada amb EPANET des de \path{Ensamble/Import EPANET .inp File...}
+\\\\Fet això, s'ha d'importar la xarxa generada amb EPANET des de \path{Ensamble/Import EPANET .inp File...}
 \begin{figure}[h!]
 	\includegraphics[scale=.4]{imatges/teva-spot/2.png}
 	\caption{Importar la xarxa creada amb EPANET.}
 \end{figure}
-
+\pagebreak
 \subsubsection{Simulació d'incidents contaminants\label{epa_contaminants}}
 Un cop importada la xarxa, s'han de definir els contaminants, per això cal obrir el menú \path{Ensamble/Execution Control} i editar l'escenari (\textit{Scenarios}).
 \begin{figure}[h!]
+	\centering
 	\includegraphics[scale=.4]{imatges/teva-spot/3.png}
+\end{figure}
+\clearpage
+\begin{figure}
 	\includegraphics[scale=.4]{imatges/teva-spot/4.png}
+\end{figure}
+\begin{figure}
+	\centering
 	\includegraphics[scale=.4]{imatges/teva-spot/5.png}
 \end{figure}
-\\\\Aquest contaminant es pot evocar en:
+Aquest contaminant es pot evocar en:
 \begin{itemize}
 	\item Non-Zero Demand Junction.
 	\item All Junctions.
 	\item All Nodes.
-	\item Nova configuració creada des de el botó \textit{Add}
+	\item Nova configuració creada des del botó \textit{Add}
 \end{itemize}
-A partir del contaminant i l'estratègia de distribució, es crea un \textit{Node Injection}. Finalment es crea un \textit{Scenario Set} que no és res més que una carpeta que defineix un conjunt d'\textit{injection nodes} o \textit{scenarios}, la configuració ha de quedar de la següent manera.
+A partir del contaminant i l'estratègia de distribució, es crea un \textit{Node Injection}. Finalment es crea un \textit{Scenario Set}, que no és res més que una carpeta que defineix un conjunt d'\textit{injection nodes} o \textit{scenarios}, la configuració ha de quedar de la següent manera.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=.4]{imatges/teva-spot/6.png}
+	\includegraphics[scale=.6]{imatges/teva-spot/6.png}
 	\caption{Configuració dels contaminants.}
 \end{figure}
-
+\pagebreak
 \subsubsection{Computar l'impacte dels contaminants\label{epa_computar}}
 En base a la configuració dels contaminants que s'ha fet en la secció \ref{epa_contaminants}, es segueix amb l'execució de la simulació per veure com afecta el contaminant a la xarxa.
-\\\\Per això es selecciona l'escenari (\textit{EPANET Simulations}) i s'executa.
+\\\\Per això es selecciona l'escenari (\textit{EPANET Simulations}) i s'executa (\textit{Execute}).
+\pagebreak
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=.4]{imatges/teva-spot/7.png}
+	\includegraphics[scale=.35]{imatges/teva-spot/7.png}
 	\caption{Execució.}
 \end{figure}
 \\\\En finalitzar l'execució, s'ha de veure un check verd al costat de \textit{EPANET Simulations}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=.4]{imatges/teva-spot/8.png}
+	\includegraphics[scale=.35]{imatges/teva-spot/8.png}
 	\caption{Fi de l'execució.}
 \end{figure}
-
-\subsubsection{Configuració de l'anàlisi}
-En la secció \textit{Health Impact Analysis} es pot fer la configuració per analitzar els resultats.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=.4]{imatges/teva-spot/9.png}
-	\caption{Configuració de l'anàlisi.}
-\end{figure}
-
-\subsubsection{Posicionament de sensors}
-Finalment per configurar el posicionament de sensors, cal editar l'opció \textit{Sensor Placement} i s'obrirà la següent finestra.
-
 \clearpage
 \subsection{Notes}
 S'ha considerat que la configuració de l'anàlisi i el posicionament de sensors es treballa a un nivell molt tècnic i s'ha decidit no entrar-hi en detall. Tota aquesta documentació està disponible en el manual d'usuari. \cite{tevaSpotGui}
+
+\clearpage
+\section{Treball futur}
+Per continuar amb el projecte, s'ha decidit adaptar l'eina \textit{TEVA-SPOT} a les necessitats específiques del problema i per això el codi font\cite{codi}. En la pàgina oficial, es pot veure que hi ha una versió disponible d'aquest codi per la plataforma \textit{GNU-Linux} i que data de novembre de 2011. 
+\\\\L'empresa \textit{Sandia National Laboratories} també proporciona el codi del projecte \textit{ACRA} que està composat d'un conjunt de \textbf{solvers} i eines d'optimització. L'adaptació d'aquesta eina també pot ser interessant a nivell de projecte per a ser utilitzada juntament amb \textit{TEVA-SPOT}.
+\subsection{Adaptació d'\textit{ACRA}}
+Per descarregar el codi cal utilitzar el sistema de versions \textit{svn} i executar la següent comanda.
+\lstinputlisting[language={}]{inst/acra1.txt}
+En aquest punt, cal adaptar el codi i un cop fet això, compilar-lo utilitzant les següents comandes.\footnote{És important comptar amb una versió de \textit{Python} entre 2.5 o 2.6 i una versió mínima de \textit{autoreconf} de 2.59}
+\lstinputlisting[language={}]{inst/acra2.txt}
+
+\subsection{Adaptació de \textit{TEVA-SPOT}}
+Per descarregar el codi cal utilitzar el sistema de versions \textit{svn} i executar la següent comanda.
+\lstinputlisting[language={}]{inst/teva1.txt}
+En aquest punt, cal adaptar el codi i un cop fet això, compilar-lo utilitzant les següents comandes.
+\lstinputlisting[language={}]{inst/teva2.txt}
+
+
 
 \clearpage
 \section{Versions utilitzades}
@@ -545,17 +560,21 @@ La documentació disponible i que s'ha seguit per elaborar aquest manual és:
   	
 	\bibitem{crystalReports}\textit{Crystal Reports Viewer}:
   	\\\path{www.crystalreports.com/crystal-viewer}
+  	
+	\bibitem{codi}\textit{Codi de TEVA-SPOT i ACRA}:
+  	\\\path{https://software.sandia.gov/trac/spot/wiki/Example/Building/linux}
 \end{thebibliography}
 
 \clearpage
 \begin{appendices}
-\section{Xarxa 1\label{ann1}}
-En aquest annex es mostra el contingut del fitxer per la xarxa desenvolupada en aquest document.\footnote{Aquest mateix fitxer es pot trobar en \path{/xarxes/primera.inp}}
+\section{Annex}
+\subsection{Xarxa 1\label{ann1}}
+En aquest annex es mostra el contingut del fitxer per la xarxa desenvolupada en aquest document.\footnote{Aquest mateix fitxer es pot trobar en \path{/xarxes/Exemple.inp}}
 \lstinputlisting[language={}]{xarxes/exportades/Exemple.inp}
 
 \clearpage
-\section{Report d'estat de la xarxa\label{ann2}}
-En aquest annex es mostra el contingut del fitxer generat per epanet de l'estat de la xarxa durant la simulació.
+\subsection{Report complet d'estat de la xarxa\label{ann2}}
+En aquest annex es mostra el contingut del fitxer generat per \textit{Epanet} de l'estat de la xarxa durant la simulació.\footnote{Aquest mateix fitxer es pot trobar en \path{/xarxes/Net3_status.txt}}
 \lstinputlisting[language={}]{xarxes/reports/Net3_status.txt}
 \end{appendices}
 \end{document}
